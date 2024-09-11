@@ -8,6 +8,6 @@ const controllerNumbers = require('../controllers/controllerNumbers')
 
 //Rota POST para '/teacher'
 router.post('/Numbers/',controllerNumbers.postNumbers);
-router.get('/Numbers/',controllerNumbers.getNumbers);
+router.post('/Primo/',controllerNumbers.postPrimo);
 
 module.exports = router
